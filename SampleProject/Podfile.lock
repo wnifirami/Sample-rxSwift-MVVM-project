@@ -1,34 +1,42 @@
 PODS:
   - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.1.9)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.9.1)
   - IQKeyboardManagerSwift
+  - lottie-ios
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
+  - TextFieldEffects
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - IQKeyboardManagerSwift
+    - lottie-ios
     - RxCocoa
     - RxRelay
     - RxSwift
+    - TextFieldEffects
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: c9000a2d98cd9724577400a011a57c2165346afb
+PODFILE CHECKSUM: 20377dfe435b899096d399521bd72b460cf428ad
 
 COCOAPODS: 1.9.3

@@ -9,6 +9,8 @@ target 'SampleProject' do
   pod 'RxCocoa', '~> 5'
   pod 'Alamofire','~> 4.9.1'
   pod 'IQKeyboardManagerSwift'
+  pod 'TextFieldEffects'
+  pod 'lottie-ios'
   # Pods for SampleProject
 
 end

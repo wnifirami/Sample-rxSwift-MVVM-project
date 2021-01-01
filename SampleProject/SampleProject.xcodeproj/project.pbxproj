@@ -22,8 +22,17 @@
 		EA464B93259BB1C40039E5A7 /* RouteUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA464B92259BB1C40039E5A7 /* RouteUtils.swift */; };
 		EA464B97259BB1EE0039E5A7 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA464B96259BB1EE0039E5A7 /* Endpoints.swift */; };
 		EA464B9B259BB2CE0039E5A7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA464B9A259BB2CE0039E5A7 /* Network.swift */; };
+		EA8A5EFE259CD2F500E6AAA8 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A5EFD259CD2F500E6AAA8 /* CustomView.swift */; };
 		EAAC16D6259BB3BE004B6EB5 /* DefaultUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC16D5259BB3BE004B6EB5 /* DefaultUtils.swift */; };
 		EAAC16DB259BB445004B6EB5 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC16DA259BB444004B6EB5 /* ApiResponse.swift */; };
+		EAD1F40D259DF516008E669C /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F40C259DF516008E669C /* login.json */; };
+		EAD1F413259F60DE008E669C /* LoginUser+WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F412259F60DE008E669C /* LoginUser+WS.swift */; };
+		EAD1F418259F62A1008E669C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F417259F62A1008E669C /* User.swift */; };
+		EAD1F41C259F649A008E669C /* AuthentificationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F41B259F649A008E669C /* AuthentificationServices.swift */; };
+		EAD1F451259F6B03008E669C /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F450259F6B03008E669C /* ColorConstant.swift */; };
+		EAD1F455259FA3E9008E669C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F454259FA3E9008E669C /* LoaderView.swift */; };
+		EAD1F459259FA416008E669C /* AnimatedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F458259FA416008E669C /* AnimatedLoader.swift */; };
+		EAD1F45D259FA479008E669C /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F45C259FA479008E669C /* loader.json */; };
 		EAE4F937259BB54700211FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4F935259BB54700211FD1 /* LoginViewController.swift */; };
 		EAE4F938259BB54700211FD1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE4F936259BB54700211FD1 /* LoginViewController.xib */; };
 		EAE4F93B259BB59000211FD1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4F93A259BB59000211FD1 /* LoginViewModel.swift */; };
@@ -50,8 +59,17 @@
 		EA464B92259BB1C40039E5A7 /* RouteUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteUtils.swift; sourceTree = "<group>"; };
 		EA464B96259BB1EE0039E5A7 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		EA464B9A259BB2CE0039E5A7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EA8A5EFD259CD2F500E6AAA8 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		EAAC16D5259BB3BE004B6EB5 /* DefaultUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUtils.swift; sourceTree = "<group>"; };
 		EAAC16DA259BB444004B6EB5 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		EAD1F40C259DF516008E669C /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		EAD1F412259F60DE008E669C /* LoginUser+WS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginUser+WS.swift"; sourceTree = "<group>"; };
+		EAD1F417259F62A1008E669C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EAD1F41B259F649A008E669C /* AuthentificationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationServices.swift; sourceTree = "<group>"; };
+		EAD1F450259F6B03008E669C /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		EAD1F454259FA3E9008E669C /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		EAD1F458259FA416008E669C /* AnimatedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLoader.swift; sourceTree = "<group>"; };
+		EAD1F45C259FA479008E669C /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
 		EAE4F935259BB54700211FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EAE4F936259BB54700211FD1 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		EAE4F93A259BB59000211FD1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -143,6 +161,7 @@
 		EA464B6A259BACEB0039E5A7 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F45B259FA459008E669C /* Json files */,
 				EA464B56259BAC820039E5A7 /* Main.storyboard */,
 				EA464B5E259BAC830039E5A7 /* LaunchScreen.storyboard */,
 			);
@@ -203,6 +222,8 @@
 		EA464B7C259BAE770039E5A7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F44F259F6AEC008E669C /* GlobalConstant */,
+				EA8A5EFC259CD2E500E6AAA8 /* CustomViews */,
 				EAAC16D4259BB394004B6EB5 /* SharedInstance */,
 				EA464B7D259BAE8E0039E5A7 /* Extensions */,
 			);
@@ -231,6 +252,7 @@
 		EA464B8A259BB14E0039E5A7 /* Route */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F410259F60B5008E669C /* WebClient */,
 				EA464B91259BB1A30039E5A7 /* RouteUtils */,
 				EA464B8E259BB18B0039E5A7 /* Route.swift */,
 			);
@@ -240,6 +262,7 @@
 		EA464B8C259BB1560039E5A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F416259F6291008E669C /* User */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -247,6 +270,7 @@
 		EA464B8D259BB16C0039E5A7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F41A259F6487008E669C /* Authentification */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -269,12 +293,79 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		EA8A5EFC259CD2E500E6AAA8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F453259FA3D8008E669C /* Loaader */,
+				EA8A5EFD259CD2F500E6AAA8 /* CustomView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		EAAC16D4259BB394004B6EB5 /* SharedInstance */ = {
 			isa = PBXGroup;
 			children = (
 				EAAC16D5259BB3BE004B6EB5 /* DefaultUtils.swift */,
 			);
 			path = SharedInstance;
+			sourceTree = "<group>";
+		};
+		EAD1F410259F60B5008E669C /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F411259F60BF008E669C /* Login */,
+			);
+			path = WebClient;
+			sourceTree = "<group>";
+		};
+		EAD1F411259F60BF008E669C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F412259F60DE008E669C /* LoginUser+WS.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EAD1F416259F6291008E669C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F417259F62A1008E669C /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EAD1F41A259F6487008E669C /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F41B259F649A008E669C /* AuthentificationServices.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		EAD1F44F259F6AEC008E669C /* GlobalConstant */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F450259F6B03008E669C /* ColorConstant.swift */,
+			);
+			path = GlobalConstant;
+			sourceTree = "<group>";
+		};
+		EAD1F453259FA3D8008E669C /* Loaader */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F454259FA3E9008E669C /* LoaderView.swift */,
+				EAD1F458259FA416008E669C /* AnimatedLoader.swift */,
+			);
+			path = Loaader;
+			sourceTree = "<group>";
+		};
+		EAD1F45B259FA459008E669C /* Json files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F45C259FA479008E669C /* loader.json */,
+				EAD1F40C259DF516008E669C /* login.json */,
+			);
+			path = "Json files";
 			sourceTree = "<group>";
 		};
 		EAE4F931259BB50900211FD1 /* Scenes */ = {
@@ -379,7 +470,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD1F45D259FA479008E669C /* loader.json in Resources */,
 				EAE4F938259BB54700211FD1 /* LoginViewController.xib in Resources */,
+				EAD1F40D259DF516008E669C /* login.json in Resources */,
 				EA464B60259BAC830039E5A7 /* LaunchScreen.storyboard in Resources */,
 				EA464B5D259BAC820039E5A7 /* Assets.xcassets in Resources */,
 				EA464B58259BAC820039E5A7 /* Main.storyboard in Resources */,
@@ -437,20 +530,27 @@
 			files = (
 				EAE4F937259BB54700211FD1 /* LoginViewController.swift in Sources */,
 				EA464B51259BAC820039E5A7 /* AppDelegate.swift in Sources */,
+				EAD1F455259FA3E9008E669C /* LoaderView.swift in Sources */,
 				EA464B93259BB1C40039E5A7 /* RouteUtils.swift in Sources */,
+				EA8A5EFE259CD2F500E6AAA8 /* CustomView.swift in Sources */,
 				EA464B53259BAC820039E5A7 /* SceneDelegate.swift in Sources */,
+				EAD1F451259F6B03008E669C /* ColorConstant.swift in Sources */,
 				EA464B77259BADF60039E5A7 /* AppCoordinator.swift in Sources */,
 				EA464B97259BB1EE0039E5A7 /* Endpoints.swift in Sources */,
+				EAD1F459259FA416008E669C /* AnimatedLoader.swift in Sources */,
 				EAAC16DB259BB445004B6EB5 /* ApiResponse.swift in Sources */,
+				EAD1F418259F62A1008E669C /* User.swift in Sources */,
 				EA464B9B259BB2CE0039E5A7 /* Network.swift in Sources */,
 				EAE4F943259BB70D00211FD1 /* LoginViewModel+Extension.swift in Sources */,
 				EAE4F93B259BB59000211FD1 /* LoginViewModel.swift in Sources */,
+				EAD1F413259F60DE008E669C /* LoginUser+WS.swift in Sources */,
 				EA464B7F259BAEF00039E5A7 /* UIViewController+Nib.swift in Sources */,
 				EA464B5B259BAC820039E5A7 /* SampleProject.xcdatamodeld in Sources */,
 				EA464B8F259BB18B0039E5A7 /* Route.swift in Sources */,
 				EA464B7A259BAE3C0039E5A7 /* AppCoordinator+Extension.swift in Sources */,
 				EA464B73259BADD50039E5A7 /* BaseCoordinator.swift in Sources */,
 				EAE4F93F259BB65500211FD1 /* LoginCoordinator.swift in Sources */,
+				EAD1F41C259F649A008E669C /* AuthentificationServices.swift in Sources */,
 				EAAC16D6259BB3BE004B6EB5 /* DefaultUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

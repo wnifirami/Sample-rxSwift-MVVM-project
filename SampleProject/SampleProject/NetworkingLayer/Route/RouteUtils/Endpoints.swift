@@ -13,7 +13,7 @@ enum EndPoints {
     /// variable path qui retourne l'url a utiliser
     var path: String {
         switch self {
-        case .login:  return ""
+        case .login:  return "/user/login"
 
         }
     }
@@ -26,7 +26,7 @@ extension EndPoints: CustomStringConvertible {
 
 // MARK: - Base URL
 private enum BaseUrls: String {
-    case usine = ""
+    case usine = "https://api-nodejs-todolist.herokuapp.com"
 }
 
 struct APISettings {
