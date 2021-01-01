@@ -11,6 +11,10 @@ target 'SampleProject' do
   pod 'IQKeyboardManagerSwift'
   pod 'TextFieldEffects'
   pod 'lottie-ios'
+  pod 'CalendarKit'
+  pod 'FSCalendar'
+  pod 'SwiftDate'
+  pod 'Floaty'
   # Pods for SampleProject
 
 end

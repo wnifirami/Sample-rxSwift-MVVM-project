@@ -33,6 +33,14 @@
 		EAD1F455259FA3E9008E669C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F454259FA3E9008E669C /* LoaderView.swift */; };
 		EAD1F459259FA416008E669C /* AnimatedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F458259FA416008E669C /* AnimatedLoader.swift */; };
 		EAD1F45D259FA479008E669C /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F45C259FA479008E669C /* loader.json */; };
+		EAD1F472259FA7BB008E669C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F470259FA7BB008E669C /* HomeViewController.swift */; };
+		EAD1F473259FA7BB008E669C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F471259FA7BB008E669C /* HomeViewController.xib */; };
+		EAD1F47B259FAA07008E669C /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F479259FAA07008E669C /* DayViewController.swift */; };
+		EAD1F47C259FAA07008E669C /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F47A259FAA07008E669C /* DayViewController.xib */; };
+		EAD1F484259FAA71008E669C /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F482259FAA71008E669C /* MonthViewController.swift */; };
+		EAD1F485259FAA71008E669C /* MonthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F483259FAA71008E669C /* MonthViewController.xib */; };
+		EAD1F4A6259FB268008E669C /* TaskMonthlyCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD1F4A4259FB268008E669C /* TaskMonthlyCells.swift */; };
+		EAD1F4A7259FB268008E669C /* TaskMonthlyCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD1F4A5259FB268008E669C /* TaskMonthlyCells.xib */; };
 		EAE4F937259BB54700211FD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4F935259BB54700211FD1 /* LoginViewController.swift */; };
 		EAE4F938259BB54700211FD1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE4F936259BB54700211FD1 /* LoginViewController.xib */; };
 		EAE4F93B259BB59000211FD1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE4F93A259BB59000211FD1 /* LoginViewModel.swift */; };
@@ -70,6 +78,14 @@
 		EAD1F454259FA3E9008E669C /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		EAD1F458259FA416008E669C /* AnimatedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLoader.swift; sourceTree = "<group>"; };
 		EAD1F45C259FA479008E669C /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		EAD1F470259FA7BB008E669C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EAD1F471259FA7BB008E669C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EAD1F479259FAA07008E669C /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		EAD1F47A259FAA07008E669C /* DayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayViewController.xib; sourceTree = "<group>"; };
+		EAD1F482259FAA71008E669C /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		EAD1F483259FAA71008E669C /* MonthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthViewController.xib; sourceTree = "<group>"; };
+		EAD1F4A4259FB268008E669C /* TaskMonthlyCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMonthlyCells.swift; sourceTree = "<group>"; };
+		EAD1F4A5259FB268008E669C /* TaskMonthlyCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskMonthlyCells.xib; sourceTree = "<group>"; };
 		EAE4F935259BB54700211FD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EAE4F936259BB54700211FD1 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		EAE4F93A259BB59000211FD1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -368,9 +384,57 @@
 			path = "Json files";
 			sourceTree = "<group>";
 		};
+		EAD1F46F259FA774008E669C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F476259FA9D8008E669C /* Container */,
+				EAD1F470259FA7BB008E669C /* HomeViewController.swift */,
+				EAD1F471259FA7BB008E669C /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		EAD1F476259FA9D8008E669C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F478259FA9E9008E669C /* MonthView */,
+				EAD1F477259FA9E2008E669C /* DayView */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		EAD1F477259FA9E2008E669C /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F479259FAA07008E669C /* DayViewController.swift */,
+				EAD1F47A259FAA07008E669C /* DayViewController.xib */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		EAD1F478259FA9E9008E669C /* MonthView */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F4A3259FB242008E669C /* TaskCells */,
+				EAD1F482259FAA71008E669C /* MonthViewController.swift */,
+				EAD1F483259FAA71008E669C /* MonthViewController.xib */,
+			);
+			path = MonthView;
+			sourceTree = "<group>";
+		};
+		EAD1F4A3259FB242008E669C /* TaskCells */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1F4A4259FB268008E669C /* TaskMonthlyCells.swift */,
+				EAD1F4A5259FB268008E669C /* TaskMonthlyCells.xib */,
+			);
+			path = TaskCells;
+			sourceTree = "<group>";
+		};
 		EAE4F931259BB50900211FD1 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EAD1F46F259FA774008E669C /* HomeViewController */,
 				EAE4F932259BB51700211FD1 /* LoginScene */,
 			);
 			path = Scenes;
@@ -472,10 +536,14 @@
 			files = (
 				EAD1F45D259FA479008E669C /* loader.json in Resources */,
 				EAE4F938259BB54700211FD1 /* LoginViewController.xib in Resources */,
+				EAD1F4A7259FB268008E669C /* TaskMonthlyCells.xib in Resources */,
 				EAD1F40D259DF516008E669C /* login.json in Resources */,
+				EAD1F47C259FAA07008E669C /* DayViewController.xib in Resources */,
 				EA464B60259BAC830039E5A7 /* LaunchScreen.storyboard in Resources */,
 				EA464B5D259BAC820039E5A7 /* Assets.xcassets in Resources */,
+				EAD1F473259FA7BB008E669C /* HomeViewController.xib in Resources */,
 				EA464B58259BAC820039E5A7 /* Main.storyboard in Resources */,
+				EAD1F485259FAA71008E669C /* MonthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD1F472259FA7BB008E669C /* HomeViewController.swift in Sources */,
 				EAE4F937259BB54700211FD1 /* LoginViewController.swift in Sources */,
 				EA464B51259BAC820039E5A7 /* AppDelegate.swift in Sources */,
 				EAD1F455259FA3E9008E669C /* LoaderView.swift in Sources */,
@@ -535,6 +604,7 @@
 				EA8A5EFE259CD2F500E6AAA8 /* CustomView.swift in Sources */,
 				EA464B53259BAC820039E5A7 /* SceneDelegate.swift in Sources */,
 				EAD1F451259F6B03008E669C /* ColorConstant.swift in Sources */,
+				EAD1F484259FAA71008E669C /* MonthViewController.swift in Sources */,
 				EA464B77259BADF60039E5A7 /* AppCoordinator.swift in Sources */,
 				EA464B97259BB1EE0039E5A7 /* Endpoints.swift in Sources */,
 				EAD1F459259FA416008E669C /* AnimatedLoader.swift in Sources */,
@@ -544,10 +614,12 @@
 				EAE4F943259BB70D00211FD1 /* LoginViewModel+Extension.swift in Sources */,
 				EAE4F93B259BB59000211FD1 /* LoginViewModel.swift in Sources */,
 				EAD1F413259F60DE008E669C /* LoginUser+WS.swift in Sources */,
+				EAD1F4A6259FB268008E669C /* TaskMonthlyCells.swift in Sources */,
 				EA464B7F259BAEF00039E5A7 /* UIViewController+Nib.swift in Sources */,
 				EA464B5B259BAC820039E5A7 /* SampleProject.xcdatamodeld in Sources */,
 				EA464B8F259BB18B0039E5A7 /* Route.swift in Sources */,
 				EA464B7A259BAE3C0039E5A7 /* AppCoordinator+Extension.swift in Sources */,
+				EAD1F47B259FAA07008E669C /* DayViewController.swift in Sources */,
 				EA464B73259BADD50039E5A7 /* BaseCoordinator.swift in Sources */,
 				EAE4F93F259BB65500211FD1 /* LoginCoordinator.swift in Sources */,
 				EAD1F41C259F649A008E669C /* AuthentificationServices.swift in Sources */,

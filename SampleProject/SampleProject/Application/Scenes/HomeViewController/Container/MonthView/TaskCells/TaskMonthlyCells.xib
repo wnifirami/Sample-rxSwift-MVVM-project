@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskMonthlyCells" rowHeight="102" id="KGk-i7-Jjw" customClass="TaskMonthlyCells" customModule="SampleProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIZ-D2-bVw">
+                        <rect key="frame" x="60.5" y="10" width="281.5" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk0-n4-lpe">
+                                <rect key="frame" x="10" y="10" width="53" height="21"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="13"/>
+                                <color key="textColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GML-19-HxC">
+                                <rect key="frame" x="10" y="36" width="89.5" height="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.36470588235294116" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GML-19-HxC" firstAttribute="leading" secondItem="wIZ-D2-bVw" secondAttribute="leading" constant="10" id="8M3-Yh-Q1m"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GML-19-HxC" secondAttribute="trailing" constant="10" id="AsG-7g-kim"/>
+                            <constraint firstItem="gk0-n4-lpe" firstAttribute="top" secondItem="wIZ-D2-bVw" secondAttribute="top" constant="10" id="I6R-yd-BHx"/>
+                            <constraint firstItem="gk0-n4-lpe" firstAttribute="leading" secondItem="wIZ-D2-bVw" secondAttribute="leading" constant="10" id="LF2-lW-vSo"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gk0-n4-lpe" secondAttribute="trailing" constant="10" id="S3N-09-VUc"/>
+                            <constraint firstItem="GML-19-HxC" firstAttribute="top" secondItem="gk0-n4-lpe" secondAttribute="bottom" constant="5" id="gXX-fA-v5Y"/>
+                            <constraint firstAttribute="bottom" secondItem="GML-19-HxC" secondAttribute="bottom" constant="10" id="kW0-hm-zVZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moW-hh-j7u">
+                        <rect key="frame" x="5" y="32.5" width="50.5" height="15"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wIZ-D2-bVw" secondAttribute="bottom" constant="10" id="3c0-uH-PAs"/>
+                    <constraint firstItem="moW-hh-j7u" firstAttribute="centerY" secondItem="wIZ-D2-bVw" secondAttribute="centerY" id="BVC-4m-Igw"/>
+                    <constraint firstItem="moW-hh-j7u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="DFG-Ok-k64"/>
+                    <constraint firstAttribute="trailing" secondItem="wIZ-D2-bVw" secondAttribute="trailing" constant="10" id="FnF-4Z-OBO"/>
+                    <constraint firstItem="wIZ-D2-bVw" firstAttribute="leading" secondItem="moW-hh-j7u" secondAttribute="trailing" constant="5" id="YxO-uI-5Yy"/>
+                    <constraint firstItem="wIZ-D2-bVw" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.8" id="ckV-z9-qAr"/>
+                    <constraint firstItem="wIZ-D2-bVw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="uhn-Hl-Ugv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-123.18840579710145" y="123.21428571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

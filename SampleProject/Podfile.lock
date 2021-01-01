@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.9.1)
+  - CalendarKit (0.14.5)
+  - Floaty (4.2.0)
+  - FSCalendar (2.8.1)
   - IQKeyboardManagerSwift (6.5.6)
   - lottie-ios (3.1.9)
   - RxCocoa (5.1.1):
@@ -8,35 +11,48 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SwiftDate (6.3.1)
   - TextFieldEffects (1.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.9.1)
+  - CalendarKit
+  - Floaty
+  - FSCalendar
   - IQKeyboardManagerSwift
   - lottie-ios
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
+  - SwiftDate
   - TextFieldEffects
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - CalendarKit
+    - Floaty
+    - FSCalendar
     - IQKeyboardManagerSwift
     - lottie-ios
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SwiftDate
     - TextFieldEffects
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CalendarKit: 6e807147a9245d68bad4dfdd9084a065fef3a410
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 20377dfe435b899096d399521bd72b460cf428ad
+PODFILE CHECKSUM: 94c9400e868f4f53ea4018ec77cb696385db38f8
 
 COCOAPODS: 1.9.3
